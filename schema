@@ -1,0 +1,8 @@
+const mongoose = require("mongoose")
+
+const schema = mongoose.Schema({
+    name:{type:String,require:true},
+    pwd:{type:String,require:true},
+})
+
+exports.Xyz = mongoose.model("xyz",schema)
