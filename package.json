@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-express": "^1.1.0",
+    "jwt-simple": "^0.5.6",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borda-yashvi/Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borda-yashvi/Node/issues"
+  },
+  "homepage": "https://github.com/borda-yashvi/Node#readme",
+  "description": ""
+}
