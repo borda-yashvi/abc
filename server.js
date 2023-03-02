@@ -8,7 +8,7 @@ mongoose.set('strictQuery', true);
 const data=require("./mongoose")
 app.use("/data",data)
 
-mongoose.connect("mongodb://localhost:27017/abc",{
+mongoose.connect("mongodb+srv://admin:admin@cluster0.anoqlev.mongodb.net/abc",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
